@@ -1,0 +1,76 @@
+/* Base styles for all devices */
+body {
+    background-color: #f0f0f0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%; /* Adjusted for responsiveness */
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 6vw; /* Responsive font size */
+    margin: 0;
+}
+
+.topics-container {
+    background-color: #e2e2e2;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.topic {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.go-back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.go-back:hover {
+    background-color: #555;
+}
+
+/* Media Queries */
+
+/* For tablets (768px and above) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 700px; /* Adjust width for tablets */
+    }
+
+    h1 {
+        font-size: 50px; /* Fixed font size for tablets */
+    }
+}
+
+/* For desktops (1024px and above) */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 800px; /* Larger width for desktops */
+    }
+
+    h1 {
+        font-size: 60px; /* Fixed font size for desktops */
+    }
+}
