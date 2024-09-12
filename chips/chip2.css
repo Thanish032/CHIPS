@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+h1{
+    color:black;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0;
+
+}
+h4{
+    color:rgb(111, 26, 2);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+}
+.d1{
+    text-align:center;
+    background-color: black;
+    width:250px;
+    height:60px;
+    color:yellow;
+    border-radius: 10px;
+}
+.gun button:hover{
+    background: #fff ;
+    color:#cf1e1e;
+}
